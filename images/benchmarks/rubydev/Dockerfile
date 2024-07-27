@@ -1,4 +1,4 @@
-FROM ruby:3.0-alpine
+FROM ruby:3.2.5-alpine
 
 # Some of these dependencies are called as subprocesses by the fastlane tests.
 RUN apk add --no-cache ruby ruby-dev ruby-bundler ruby-json build-base bash \
